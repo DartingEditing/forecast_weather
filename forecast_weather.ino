@@ -28,14 +28,14 @@ OpenWeatherMapCurrent client;
 Adafruit_ST7735 tft = Adafruit_ST7735(TFT_CS, TFT_DC, TFT_RST);
 
 
-String OPEN_WEATHER_MAP_APP_ID = "ea2144cd9a3f4aa4e15f9283b4fef7fc";
+String OPEN_WEATHER_MAP_APP_ID = "*************";
 String OPEN_WEATHER_MAP_LOCATION = "MANADO";
 String OPEN_WEATHER_MAP_LANGUAGE = "ID";
 boolean IS_METRIC = true;
 
 const char* ESP_HOST_NAME = "Octa-ESP32" + ESP.getFlashChipId();
-const char* WIFI_SSID     = "-Eo-";
-const char* WIFI_PASSWORD = "26111003Me.";
+const char* WIFI_SSID     = "*******";
+const char* WIFI_PASSWORD = "*******";
 
 const long utcOffsetInSeconds = 19800;
 char daysOfTheWeek[7][12] = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
